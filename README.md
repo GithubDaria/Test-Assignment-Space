@@ -10,8 +10,7 @@ Implementation:
 - **PlayerMovement**: Rigidbody-based controller with left/right movement and jump, using the Unity Input System.
 - **ItemBehavior**: Controls rotation, floating animation, lifetime, and triggers AudioManager on collection.
 - **GameUIManager**: Updates the score and timer UI, manages the main gameplay screen and end game screen, and handles replay, main menu, and exit buttons.
-- **AudioManager**: Singleton pattern managing collectible sounds.
-- **AudioManager**: Singleton pattern managing collectible sounds.
+- **AudioManager**: Singleton pattern managing sounds.
 - **MainMenuUIManager**: Handles main menu fade-in and scene transitions.
 
 Unity Components Used:
@@ -24,7 +23,7 @@ Unity Components Used:
 - SerializeField (editable variables in Inspector)
 
 Controls:
-- Move: A/D or Left/Right Arrows
+- Move: A/D
 - Jump: Space
 
 Gameplay:
