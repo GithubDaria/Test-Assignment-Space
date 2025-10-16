@@ -22,3 +22,10 @@ Unity Components Used:
 - Coroutine (game loop, fading, spawning timing)
 - AudioSource & AudioClip (item collection sounds)
 - SerializeField (editable variables in Inspector)
+
+Controls:
+- Move: A/D or Left/Right Arrows
+- Jump: Space
+
+Gameplay:
+- Collect the items before they disappear!
