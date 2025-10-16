@@ -61,8 +61,8 @@ public class GameUIManager : MonoBehaviour
     private void OnDisable()
     {
         GameManager.OnScoreChanged -= UpdateScore;
-        GameManager.OnTimerChanged += UpdateTimerUI;
-        GameManager.OnGameEnd += ShowGameOverScreen;
+        GameManager.OnTimerChanged -= UpdateTimerUI;
+        GameManager.OnGameEnd -= ShowGameOverScreen;
     }
 
     private void UpdateScore(int newScore)
